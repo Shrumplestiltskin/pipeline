@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 #
-# Uses kubernetes service account token to request vault token
-# Uses vault token to issue dynamic credential for rabbitmq instance
-# Uses dynamic credential to write data to rabbitmq
+# Relies on vault sidecar to provide dynamic credentials
+# renewal of credentials is transparent to application
+# Using periodic token
 #
 
 import requests
