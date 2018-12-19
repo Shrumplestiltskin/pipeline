@@ -1,5 +1,5 @@
 requests==2.3.0
 pika
-djang==1.8.10
+django==1.8.10
 moin==1.9.10
 urllib3==1.23
