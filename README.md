@@ -1,1 +1,1 @@
-Purposefully vulnerable in order to test pipeline gates.
+Purposefully vulnerable dependencies in order to test pipeline gates.
